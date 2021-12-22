@@ -19,7 +19,7 @@ from dataset.imagenet import get_imagenet_dataloader
 from helper.util import adjust_learning_rate, accuracy, AverageMeter
 from helper.ima_loops import train_vanilla as train, validate
 
-# os.environ['CUDA_VISIBLE_DEVICES'] = '6, 7'
+os.environ['CUDA_VISIBLE_DEVICES'] = '2,3'
 
 
 def parse_option():
